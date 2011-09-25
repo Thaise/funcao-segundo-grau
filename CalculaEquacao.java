@@ -1,5 +1,5 @@
 
-public class CalculaEquaçao {
+public class CalculaEquacao {
 
 	public static int equacaoPositiva(int i, int j, int k) {
 		int delta = (int) ((Math.pow(j, 2))- (4 * i * k));
@@ -24,7 +24,7 @@ public class CalculaEquaçao {
 	}
 
 	public static Object equacaoDeltaNegativo(int i, int j, int k) {
-				
+		int delta = (int) ((Math.pow(j, 2))- (4 * i * k));		
 		return null;
 	}
 }
